@@ -1,6 +1,6 @@
 #include <stdio.h> /* 導入標準輸入輸出*/ 
  
-int main() /*不回傳數值*/
+int main() /*宣告整數主要函式*/
 {
     printf("Hello, World! \n"); /*印出Hellow,World*/
  
@@ -17,6 +17,53 @@ int main()
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
 public class HelloWorld {  /*創建一個類別叫HellowWorld*/
     public static void main(String[] args) {  /*創建一個主要函式*/
-        System.out.println("Hello World");  /*印Hello World出*/
+        System.out.println("Hello World");  /*印H出ello World*/
+    }
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#include<stdio.h> /* 導入標準輸入輸出*/
+ 
+int main() /*宣告整數主要函式*/
+{
+    int i,j,k;  /*宣告整數變數i.j.k*/
+    printf("\n"); /*斷行*/
+    for(i=1;i<5;i++) {  /*for迴圈i=1 i<5 i++*/
+        for(j=1;j<5;j++) { /*for迴圈j=1 j<5 j++*/  
+            for (k=1;k<5;k++) {  /*for迴圈k=1 k<5 k++*/
+                if (i!=k&&i!=j&&j!=k) {  /*if判斷 i不等於k 且 i不等於j 且 j不等於k*/
+                    printf("%d,%d,%d\n",i,j,k); /*印出i j k 的數值*/
+                }
+            }
+        }
+    }
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#include <iostream> /* 導入標準輸入輸出*/
+using namespace std; /*使用命名空間來宣告std:*/
+ 
+int main() /*宣告整數主要函式*/
+{
+    int i,j,k;  /*宣告整數變數i.j.k*/
+    for(i=1;i<5;i++) {  /*for迴圈i=1 i<5 i++*/
+        for(j=1;j<5;j++) { /*for迴圈j=1 j<5 j++*/  
+            for (k=1;k<5;k++) {  /*for迴圈k=1 k<5 k++*/
+                if (i!=k&&i!=j&&j!=k) {  /*if判斷 i不等於k 且 i不等於j 且 j不等於k*/
+                     cout<<""<<i;
+					                cout<<""<<j;
+					                cout<<""<<k<<endl; /*印出i j k 的數值*/
+                }
+            }
+        }
+    }
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+public class Work2 {  /*創建一個類別叫Work*/
+    public static void main(String[] args) {  /*創建一個主要函式*/
+     int i,j,k;  /*宣告整數變數i.j.k*/
+    for(i=1;i<5;i++) {  /*for迴圈i=1 i<5 i++*/
+        for(j=1;j<5;j++) { /*for迴圈j=1 j<5 j++*/  
+            for (k=1;k<5;k++) {  /*for迴圈k=1 k<5 k++*/
+                if (i!=k&&i!=j&&j!=k) {  /*if判斷 i不等於k 且 i不等於j 且 j不等於k*/
+                System.out.println(i,j,k);  /*印出 i j k*/
     }
 }
