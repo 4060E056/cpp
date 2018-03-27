@@ -1,0 +1,22 @@
+#include <stdio.h> /* 導入標準輸入輸出*/ 
+ 
+int main() /*不回傳數值*/
+{
+    printf("Hello, World! \n"); /*印出Hellow,World*/
+ 
+    return 0; /*退出*/
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#include <iostream>/* 導入標準輸入輸出*/ 
+using namespace std; /*使用命名空間來宣告std:*/
+int main()
+{
+    cout << "Hello, world!" << endl; /*列印出Hellow,World end1斷行*/
+    return 0; /*退出*/
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+public class HelloWorld {  /*創建一個類別叫HellowWorld*/
+    public static void main(String[] args) {  /*創建一個主要函式*/
+        System.out.println("Hello World");  /*印Hello World出*/
+    }
+}
