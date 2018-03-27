@@ -49,8 +49,8 @@ int main() /*宣告整數主要函式*/
             for (k=1;k<5;k++) {  /*for迴圈k=1 k<5 k++*/
                 if (i!=k&&i!=j&&j!=k) {  /*if判斷 i不等於k 且 i不等於j 且 j不等於k*/
                      cout<<""<<i;
-					                cout<<""<<j;
-					                cout<<""<<k<<endl; /*印出i j k 的數值*/
+		     cout<<""<<j;
+		     cout<<""<<k<<endl; /*印出i j k 的數值*/
                 }
             }
         }
